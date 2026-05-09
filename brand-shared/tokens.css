@@ -1,0 +1,86 @@
+/*
+ * Design Tokens
+ *
+ * Canonical CSS variables for the brand. Slide templates embed these values
+ * inline in their own :root block; this file is the shared source for the
+ * style guide, the components/ fragments, and any tooling that reads the
+ * design system directly.
+ *
+ * Variable names match the templates exactly — do NOT prefix or rename.
+ * See tokens.json for the machine-readable version with full usage notes,
+ * and references/brand-guidelines.md for the authoritative rules
+ * (when to use each token, not just its value).
+ *
+ * TODO: Replace colour values with your brand colours.
+ */
+
+:root {
+  /* Primary colour */
+  --blue:          #0658fa; /* Headlines, stat numbers, CTAs, accents, progress bar */
+  --blue-dark:     #0a0756; /* Closing slide background ONLY */
+  --blue-hover:    #0548d4; /* CTA button hover */
+  --purple:        #8000ff; /* Compliance context only — sparingly */
+  --black:         #000000; /* Body + heading text */
+  --white:         #ffffff; /* Slide backgrounds, card fills, text on dark */
+
+  /* Supporting colour */
+  --bg-grey:       #ecedf0; /* Slide / panel backgrounds, card fills */
+  --bg-light-blue: #e7f1fd; /* Info + AI cards, tag backgrounds, pipeline */
+  --text-grey:     #7f7f7f; /* Body text — never use black */
+  --border:        #d4d6dc; /* Card borders, dividers */
+
+  /* Infrastructure */
+  --viewport-bg:   #d0d0d0; /* Behind scaled slide */
+
+  /* Subtitle grey — NOT a variable in templates (used as inline #808080)
+     but exposed here so tooling can pick it up. */
+  --subtitle-grey: #808080;
+
+  /* Typography */
+  --font-family:   'Inter', sans-serif;
+
+  --weight-light:    300;
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+
+  --size-overline:     10px;
+  --size-body:         15px;
+  --size-card-title:   15px;
+  --size-card-body:    14px;
+  --size-subtitle-min: 18px;
+  --size-subtitle-max: 24px;
+  --size-section-min:  32px;
+  --size-section-max:  40px;
+  --size-stat:         64px;
+
+  --hero-headline: clamp(36px, 5vw, 60px);
+
+  --ls-overline: 0.12em;
+  --lh-headline: 1.15;
+  --lh-body:     1.65;
+  --lh-tagline:  1.6;
+
+  /* Radii */
+  --radius-card:   8px;
+  --radius-button: 6px;
+  --radius-focus:  2px;
+
+  /* Slide geometry */
+  --slide-w:       1280px;
+  --slide-h:       720px;
+  --pad-top:       56px;
+  --pad-side:      72px;
+  --pad-bottom:    140px; /* NON-NEGOTIABLE */
+
+  /* Chrome */
+  --progress-h:    3px;
+  --logo-w:        186px;
+  --logo-h:        32px;
+  --logo-bottom:   52px;
+  --logo-left:     72px;
+  --nav-size:      32px;
+  --nav-bottom:    48px;
+  --nav-right:     72px;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "whitepapers-render",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Render multi-page A4 whitepaper HTML files to PDF",
+  "scripts": {
+    "render": "node render-whitepaper.js"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^24.0.0"
+  }
+}

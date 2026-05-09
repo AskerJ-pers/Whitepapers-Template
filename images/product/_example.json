@@ -1,0 +1,10 @@
+{
+  "title": "Dashboard overview",
+  "description": "Main dashboard showing key metrics and status overview",
+  "category": "product",
+  "tags": ["dashboard", "overview", "risk", "compliance", "UI"],
+  "suggestedSlides": ["cover-slide", "numbered-list-visual", "stats-image-split"],
+  "background": "light",
+  "orientation": "landscape",
+  "addedDate": "2026-04-09"
+}

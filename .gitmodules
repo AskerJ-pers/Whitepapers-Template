@@ -1,0 +1,3 @@
+[submodule "brand-shared"]
+	path = brand-shared
+	url = https://github.com/AskerJ-pers/Brand-Shared.git

@@ -1,0 +1,13 @@
+node_modules/
+.claude/
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.env
+Thumbs.db
+
+# Setup script marker
+.setup-complete
