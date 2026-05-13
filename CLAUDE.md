@@ -614,3 +614,17 @@ The script reads `pages.json` from the whitepaper folder. It always produces two
 - **Argument first** — a whitepaper makes a case with evidence; structure every page around the central thesis
 - **Always cite** — every statistic, claim, or quotation needs a source
 - **File naming** — whitepaper folders are lowercase, hyphen-separated. Page files match the order in `pages.json`
+
+---
+
+## Client communication
+
+The person using this system may not have a technical background. Apply these rules in every response:
+
+- Use plain English. Avoid technical terms where a plain equivalent exists.
+- When a technical term is unavoidable, introduce it in brackets after the plain version on first use. Example: "save your work to the shared system (git commit)". Do not repeat the technical term after that.
+- Never refer to files by their internal paths unless giving the user a path to open in their browser. In that case, give the full path and nothing else — no explanation of folder structure.
+- Never explain what git, submodules, npm, or Node.js are. If something requires these to run, just run it silently.
+- Keep responses short. One instruction at a time where possible.
+- When a piece of work appears finished (rendered, reviewed, edits saved), ask once: "This looks finished. Would you like me to save this to the shared system (git commit)?" — do not commit without confirmation.
+- Only offer to commit when the work is genuinely complete. Do not ask mid-session.
